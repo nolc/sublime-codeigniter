@@ -25,9 +25,13 @@ Enjoy!
 
 ##Quick Reference
 
-(<?php inserted only for syntax highlighting)
+Type the tab-trigger (shown in bold) followed by tab to expand the text, you may use tab to move between the various stop points within the code snippet.
 
-*cicontroller*
+You can also use `ctrl + space` to bring up a list of snippets.
+
+(<?php inserted in examples only for syntax highlighting)
+
+**cicontroller**
 
 ```php
 
@@ -46,7 +50,7 @@ class ControllerName extends CI_Controller
 
 ```
 
-*cimodel*
+**cimodel**
 
 ```php
 
