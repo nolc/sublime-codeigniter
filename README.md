@@ -1,10 +1,12 @@
+#Sublime Text 2 : CodeIgniter Framework Snippets
+
 A collection of community compiled snippets for Codeigniter for use with the Sublime Text 2 Editor http://www.sublimetext.com
 
-#Install
+##Install
 
 To install: clone to SublimeCodeigniter within your Sublime Text 2 package folder.
 
-##Linux
+###Linux
 
 To install on Linux execute the following command:
 
@@ -12,7 +14,7 @@ To install on Linux execute the following command:
 git clone git://github.com/daylerees/SublimeCodeigniter.git ~/.config/sublime-text-2/Packages/SublimeCodeigniter
 ```
 
-##Mac
+###Mac
 
 To install on Mac OS execute the following command:
 
@@ -21,7 +23,7 @@ git clone git://github.com/daylerees/SublimeCodeigniter.git ~/Library/Applicatio
 ```
 Enjoy!
 
-#Quick Reference
+##Quick Reference
 
 *cicontroller*
 ```
