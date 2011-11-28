@@ -25,9 +25,13 @@ Enjoy!
 
 ##Quick Reference
 
+(<?php inserted only for syntax highlighting)
+
 *cicontroller*
 
 ```php
+
+<?php
 
 /**
 * 
