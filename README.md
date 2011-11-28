@@ -42,7 +42,7 @@ You can also use `ctrl + space` to bring up a list of snippets.
 */
 class ControllerName extends CI_Controller
 {
-	function index()
+	public function index()
 	{
 		
 	}
@@ -61,7 +61,7 @@ class ControllerName extends CI_Controller
 */
 class ModelName extends CI_Model
 {
-	function method_name()
+	public function method_name()
 	{
 		
 	}
