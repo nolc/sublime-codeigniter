@@ -26,7 +26,8 @@ Enjoy!
 ##Quick Reference
 
 *cicontroller*
-```
+```php
+
 /**
 * 
 */
@@ -37,10 +38,12 @@ class ControllerName extends CI_Controller
 		
 	}
 }
+
 ```
 
 *cimodel*
-```
+```php
+
 /**
 * 
 */
@@ -51,4 +54,5 @@ class ModelName extends CI_Model
 		
 	}
 }
+
 ```
