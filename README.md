@@ -46,6 +46,8 @@ class ControllerName extends CI_Controller
 
 ```php
 
+<?php
+
 /**
 * 
 */
