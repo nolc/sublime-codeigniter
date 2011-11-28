@@ -11,7 +11,7 @@ To install: clone to SublimeCodeigniter within your Sublime Text 2 package folde
 To install on Linux execute the following command:
 
 ```
-git clone git://github.com/daylerees/SublimeCodeigniter.git ~/.config/sublime-text-2/Packages/SublimeCodeigniter
+git clone git://github.com/daylerees/sublime-codeigniter.git ~/.config/sublime-text-2/Packages/Codeigniter
 ```
 
 ###Mac
@@ -19,7 +19,7 @@ git clone git://github.com/daylerees/SublimeCodeigniter.git ~/.config/sublime-te
 To install on Mac OS execute the following command:
 
 ```
-git clone git://github.com/daylerees/SublimeCodeigniter.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/SublimeCodeigniter
+git clone git://github.com/daylerees/sublime-codeigniter.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/Codeigniter
 ```
 Enjoy!
 
