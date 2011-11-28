@@ -25,11 +25,11 @@ Enjoy!
 
 ##Quick Reference
 
-Type the tab-trigger (shown in bold) followed by tab to expand the text, you may use tab to move between the various stop points within the code snippet.
+Type the tab-trigger (shown in bold) followed by `tab` to expand the text, you may use `tab` to move between the various stop points within the code snippet.
 
 You can also use `ctrl + space` to bring up a list of snippets.
 
-(<?php inserted in examples only for syntax highlighting)
+*(<?php inserted in examples only for syntax highlighting)*
 
 **cicontroller**
 
@@ -66,5 +66,75 @@ class ModelName extends CI_Model
 		
 	}
 }
+
+```
+
+**action**
+
+```php
+
+<?php
+
+function index()
+{
+	
+}
+
+```
+
+**anchor**
+
+```php
+
+<?php
+
+anchor(,)
+
+```
+
+**pagi**
+
+```php
+
+<?php
+
+$this->load->library('pagination');
+
+$config['base_url'] = 'http://example.com/index.php/test/page/';
+$config['total_rows'] = 200;
+$config['per_page'] = 20; 
+
+$this->pagination->initialize($config); 
+
+```
+
+**formval**
+
+```php
+
+<?php
+
+$this->load->library('form_validation');
+
+$this->form_validation->set_rules('field_name', 'Field Label', 'required|xss_clean|');
+
+if ($this->form_validation->run() == FALSE)
+{
+	// form validation failed..
+}
+else
+{
+	// form validation succeeded..
+}
+
+```
+
+**view**
+
+```php
+
+<?php
+
+$this->load->view('view_name', $data);
 
 ```
